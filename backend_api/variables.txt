@@ -1,0 +1,9 @@
+default: "mysql"
+user: "root"
+password: "1234"
+host: "localhost"
+database: "lesoiree"
+port: "3306"
+
+pattern: default://user:password@host/database
+mysql://root:1234@localhost/lesoiree
